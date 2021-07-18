@@ -44,6 +44,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
 </style>
 
 <div class="experience" id="experience">
@@ -57,8 +66,10 @@
               <li>Completed documentation for each coil built and met manufacturing production deadlines each week.</li>
           </ul>
       </div>
-	  <img width=200px height="auto" src="https://images.philips.com/is/image/PhilipsConsumer/HCNMRB209-IMS-en_US?wid=470&$pnglarge$" alt="brkn"/>
-	  <img width=100px height="auto" src=https://cdn.freelogovectors.net/wp-content/uploads/2018/04/philips_logo.png alt=brkn/>
+      <div class="images">
+        <img width=200px height="auto" src="https://images.philips.com/is/image/PhilipsConsumer/HCNMRB209-IMS-en_US?wid=470&$pnglarge$" alt="brkn"/>
+        <img width=100px height="auto" src=https://cdn.freelogovectors.net/wp-content/uploads/2018/04/philips_logo.png alt=brkn/>
+      </div>
       <p></p>
       <div class="internship-location"> <b>UF Transportation Institute & JainLab</b> <div> Gainesville, FL </div></div>
       <div class="internship-position"> Undergraduate Researcher <div> October 2018 - June 2019 </div></div>

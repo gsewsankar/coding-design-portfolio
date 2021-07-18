@@ -52,7 +52,6 @@
 		.nav .dropdown-open{
 			display: flex;
 			flex-direction: column;
-			background-color: rgb(233, 233, 233);
 			padding: 0rem 3rem;
 		}
 
