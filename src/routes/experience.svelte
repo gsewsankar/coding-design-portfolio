@@ -55,8 +55,9 @@
 }
 </style>
 
+<h1> Experience </h1>
+
 <div class="experience" id="experience">
-<h2> Experience </h2>
   <div class="internships">
       <div class="internship-location"> <b>PHILIPS</b> <div> Gainesville, FL </div></div>
       <div class="internship-position"> E1 Technician <div> December 2019 - December 2020 </div></div>

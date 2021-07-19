@@ -38,6 +38,8 @@
 
 </style>
 
+<h1> Projects </h1>
+
 <div class="projects" id="projects">
 	<div class="card">
 		<img width=500px height="auto" src="fwee_logo.svg" alt=brkn>

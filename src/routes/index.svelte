@@ -3,7 +3,11 @@
 </svelte:head>
 
 <script>
-
+import Skills from '../routes/skills.svelte';
+import Experience from '../routes/experience.svelte';
+import Projects from '../routes/projects.svelte';
+import Education from '../routes/education.svelte';
+import Contact from '../routes/contact.svelte';
 </script>
 
 <style>
@@ -17,6 +21,13 @@
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 		animation-timing-function: ease-in-out;
+	}
+
+	.home{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	h3{
@@ -43,13 +54,26 @@
 			opacity: 1;
 		}
 	}
+
+	@media only screen and (max-width: 600px) {
+		h3{
+			padding-top: 50px;
+			text-align: center;
+		}
+	}
 </style>
 
+<div class="home">
 <div id="index">
 	<div class="top">
 	<h1>Hi I'm Garrick Sewsankar...</h1>
 	<img class="newly-added" src=https://i1.wp.com/i.pinimg.com/236x/ce/2a/95/ce2a95e99faceaf7af19c273b10ebcc1.jpg alt=pfp />
 	</div>
 	<h3 class="newly-added">"Aspiring"<br>Software Engineer - Web Developer <br> Philosopher - YouTuber - Start-Up Founder <br> Entrepreneur - Businessman - CEO </h3>
-	
+</div>
+<Skills/>
+<Experience/>
+<Projects/>
+<Education/>
+<Contact/>
 </div>
