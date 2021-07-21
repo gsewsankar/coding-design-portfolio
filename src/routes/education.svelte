@@ -19,7 +19,10 @@ padding: 1rem;
 font-size: 3rem;
 }
 @media only screen and (max-width: 600px) {
-
+	.education img{
+		width: 300px;
+		height: auto;
+	}
 }
 </style>
 
