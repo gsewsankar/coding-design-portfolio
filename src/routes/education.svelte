@@ -23,6 +23,10 @@ font-size: 3rem;
 		width: 300px;
 		height: auto;
 	}
+
+	.education {
+		text-align: center;
+	}
 }
 </style>
 
@@ -33,6 +37,8 @@ font-size: 3rem;
 	<div class="major">Bachelor of Science in Computer Science</div>
 	<h2>May 2022</h2>
 	<h3>Courses</h3>
+	
 	<img width=500px height="auto" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Florida_Gators_gator_logo.svg/1280px-Florida_Gators_gator_logo.svg.png" alt="brkn">
 	<img width=500px height="auto" src="uf.jpg" alt=brkn>
+	
 </div>

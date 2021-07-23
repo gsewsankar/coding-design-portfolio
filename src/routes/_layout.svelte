@@ -22,6 +22,9 @@
 		background-color: lightgrey;
 		color: gray;
 		display: flex;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
@@ -35,6 +38,7 @@
 </main>
 </div>
 <div class="footer">
-	© 2021 A Garrick Website. All rights reserved.
+	<p>I made this site with <a href=https://sapper.svelte.dev target="_blank" rel="noopener noreferrer">Svelte Sapper</a></p>
+	<p>© 2021 A Garrick Website. All rights reserved.</p>
 </div>
 

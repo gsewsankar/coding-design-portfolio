@@ -12,6 +12,14 @@ const sendMessage = () =>{
 </script>
 
 <style>
+	.contact{
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+	}
+
 	form{
 		font-size: x-large;
 	}
@@ -45,7 +53,7 @@ const sendMessage = () =>{
 
 <h1>Contact</h1>
 
-<div id="contact">
+<div class="contact" id="contact">
 	<p>I programmed this to send a notification directly to my phone LOL. If you are here, send something!</p>
 	<form>
 		<label for="name">From:</label><br>
