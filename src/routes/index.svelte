@@ -64,7 +64,7 @@ import Contact from '../routes/contact.svelte';
 </style>
 
 <div class="home">
-<div id="index">
+<div class="index" id="index">
 	<div class="top">
 	<h1>Hi I'm Garrick Sewsankar...</h1>
 	<img class="newly-added" src=https://i1.wp.com/i.pinimg.com/236x/ce/2a/95/ce2a95e99faceaf7af19c273b10ebcc1.jpg alt=pfp />

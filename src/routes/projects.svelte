@@ -9,6 +9,13 @@
 <style>
 .projects{
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: lightskyblue;
+}
+.cards{
+		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 }
@@ -18,6 +25,7 @@
 	flex-direction: column;
 	border: 2px solid rgb(0, 57, 95);
 	border-radius: 5px;
+	background-color: white;
 }
 
 .card:hover{
@@ -37,10 +45,10 @@
 }
 
 </style>
-
+<div class="projects" id="projects">
 <h1> Projects </h1>
 
-<div class="projects" id="projects">
+<div class="cards">
 	<div class="card">
 		<img width=500px height="auto" src="fwee_logo.svg" alt=brkn>
 		<p>This project is about this and that</p>
@@ -65,4 +73,5 @@
 		<img width=500px height="auto" src="gitsite.PNG" alt=brkn>
 		<p>This project is about this and that</p>
 	</div>
+</div>
 </div>

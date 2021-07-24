@@ -7,11 +7,23 @@
 </script>
 
 <style>
+
+	h1{
+		color: white;
+	}
+
+	.skills{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(80, 80, 80);
+	}
+
 	.cards{
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		
 	}
 
 	.item{
@@ -37,9 +49,10 @@
 
 </style>
 
+<div class="skills">
 <h1>My Skills</h1>
 
-<div class=cards id="skills">
+<div class=cards>
 	<div class="item">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="brkn" />
 	</div>
@@ -74,4 +87,6 @@
 		<img src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" alt="brkn" />
 	</div>
 	
+</div>
+
 </div>
