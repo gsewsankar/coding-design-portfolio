@@ -144,7 +144,6 @@
 	</div>
 	<a href={segment} class="menu-btn" on:click={openNav}>&#9776;</a>
 </nav>
-
 <div id="myNav" class="overlay">
 	<a href={segment} class="closebtn" on:click={closeNav}>&times;</a>
 	<div class="overlay-content">
