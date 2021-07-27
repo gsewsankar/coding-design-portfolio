@@ -42,6 +42,8 @@
 
 .home-btn:hover{
 	transform: scale(1.1);
+	filter: brightness(65%) grayscale(100%) sepia(100%) hue-rotate(100deg);
+
 }
 
 .menu-btn{

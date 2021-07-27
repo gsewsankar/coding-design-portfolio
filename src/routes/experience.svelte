@@ -7,50 +7,55 @@
 </script>
 
 <style>
-.experience
-{
-	margin: 1rem;
-	display: flex;
-	flex-direction: column;
-}
-
-.internships 
-{
+.experience{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.internship-location 
-{
-    padding-left: 1rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 22px;
-    color: rgb(95, 95, 95);
-}
-
-.internship-position 
-{
-    padding-left: 1rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    color: black;
-}
-
-.internship-description 
-{
-    padding-left: 3rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.images{
+.job{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
+.job .left{
+    max-width: 500px;
+}
+
+img{
+    width: auto;
+    height: 200px;
+}
+
+
 @media only screen and (max-width: 600px) {
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.job .left{
+    max-width: 300px;
+}
+
+img{
+    width: auto;
+    height: 100px;
+}
 	
 }
 </style>
@@ -58,34 +63,36 @@
 <h1> Experience </h1>
 
 <div class="experience" id="experience">
-  <div class="internships">
-      <div class="internship-location"> <b>PHILIPS</b> <div> Gainesville, FL </div></div>
-      <div class="internship-position"> E1 Technician <div> December 2019 - December 2020 </div></div>
-      <div class="internship-description"> 
-          <ul>
-              <li>Assembled and tuned MRI Radiofrequency coils by soldering components to boards and calibrating the coils to work with correct frequencies. </li>
-              <li>Completed documentation for each coil built and met manufacturing production deadlines each week.</li>
-          </ul>
-      </div>
-      <div class="images">
-        <img width=200px height="auto" src="https://images.philips.com/is/image/PhilipsConsumer/HCNMRB209-IMS-en_US?wid=470&$pnglarge$" alt="brkn"/>
-        <img width=100px height="auto" src=https://cdn.freelogovectors.net/wp-content/uploads/2018/04/philips_logo.png alt=brkn/>
-      </div>
-      <p></p>
-      <div class="internship-location"> <b>UF Transportation Institute & JainLab</b> <div> Gainesville, FL </div></div>
-      <div class="internship-position"> Undergraduate Researcher <div> October 2018 - June 2019 </div></div>
-      <div class="internship-description"> 
-          <ul>
-              <li>
-                  Analyzed video eye tracking data by creating regions of interest using
-                  BeGaze software on a driving safety project under the I-STREET initiative.
-              </li>
-              <li>
-                  Research was used to determine where drivers look while driving and if
-                  audio alerts would help protect pedestrians and cyclists.
-              </li>
-          </ul>
-      </div>
-      <p></p>
-  </div>
+    <div class="job">
+        <div class="left">
+            <h2>E1 Technician</h2>
+            <div><b>PHILIPS (Invivo)</b> Gainesville, FL <b>12/2019-12/2020</b></div>
+            <p>
+                Assembled and tuned MRI Radiofrequency coils by soldering components to boards and calibrating the coils to work with correct frequencies.
+                Completed documentation for each coil built and met manufacturing production deadlines each week.
+            </p>
+        </div>
+        <div class="right">
+            <img src=https://cdn.freelogovectors.net/wp-content/uploads/2018/04/philips_logo.png alt=brkn/>
+            <img src="https://images.philips.com/is/image/PhilipsConsumer/HCNMRB209-IMS-en_US?wid=470&$pnglarge$" alt="brkn"/>
+        </div>
+    </div>
+
+    <div class="job">
+        <div class="left">
+            <h2>Undergraduate Researcher</h2> 
+            <div><b>UF Transportation Institute & JainLab</b> Gainesville, FL <b>10/2018-6/2019</b></div>  
+            <p>
+                Analyzed video eye tracking data by creating regions of interest using
+                BeGaze software on a driving safety project under the I-STREET initiative.
+                Research was used to determine where drivers look while driving and if
+                audio alerts would help protect pedestrians and cyclists.
+            </p>
+        </div>
+        <div class="right">
+            <img src="https://fdotwww.blob.core.windows.net/sitefinity/images/default-source/content1/info/logo/png/fdot_logo_color.png?sfvrsn=293c15a8_2" alt=brkn/>
+            <img src="https://www.transportation.institute.ufl.edu/wp-content/uploads/2019/05/I-STREET-Logo-400px-300x233.png" alt="brkn"/>
+        </div>
+    </div>
+      
 </div>

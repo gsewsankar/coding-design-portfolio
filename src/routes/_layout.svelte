@@ -5,7 +5,6 @@
 
 <style>
 	.app{
-		background-color: white;
 		min-height: 100vh;
 	}
 	main{

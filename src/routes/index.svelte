@@ -67,9 +67,9 @@ import Contact from '../routes/contact.svelte';
 <div class="index" id="index">
 	<div class="top">
 	<h1>Hi I'm Garrick Sewsankar...</h1>
-	<img class="newly-added" src=https://i1.wp.com/i.pinimg.com/236x/ce/2a/95/ce2a95e99faceaf7af19c273b10ebcc1.jpg alt=pfp />
+	<img class="newly-added" src=https://i.ibb.co/xSPkS8y/small.jpg alt=pfp />
 	</div>
-	<h3 class="newly-added">"Aspiring"<br>Software Engineer - Web Developer <br> Philosopher - YouTuber - Start-Up Founder <br> Entrepreneur - Businessman - CEO </h3>
+	<h3 class="newly-added">"Aspiring"<br>Software Engineer - Web Developer - UI/UX Designer<br> Philosopher - YouTuber - Start-Up Founder <br> Entrepreneur - Businessman - CEO </h3>
 </div>
 <Skills/>
 <Experience/>
