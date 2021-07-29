@@ -9,9 +9,9 @@
 <style>
 @font-face {
 	font-family: 'diplomaregular';
-	src: url('/diploma.ttf/') format('truetype'),
-		url('/diploma-webfont.woff2/') format('woff2'),
-		url('/diploma-webfont.woff/') format('woff');
+	src: url('../diploma.ttf') format('truetype'),
+		url('../diploma-webfont.woff2') format('woff2'),
+		url('../diploma-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -21,7 +21,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	font-family: serif;
-	background: url('/uf.jpg/') no-repeat center;
+	background: url('../uf.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;

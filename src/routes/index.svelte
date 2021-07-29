@@ -3,17 +3,17 @@
 </svelte:head>
 
 <script>
-import Skills from '../routes/skills.svelte';
-import Experience from '../routes/experience.svelte';
-import Projects from '../routes/projects.svelte';
-import Education from '../routes/education.svelte';
-import Contact from '../routes/contact.svelte';
+import Skills from './skills.svelte';
+import Experience from './experience.svelte';
+import Projects from './projects.svelte';
+import Education from './education.svelte';
+import Contact from './contact.svelte';
 </script>
 
 <style>
 	.index{
 		width: 100%;
-		background: url('/uf.jpg/') no-repeat center;
+		background: url('../uf.jpg') no-repeat center;
 		background-size: cover;
 		background-attachment: fixed;
 	}

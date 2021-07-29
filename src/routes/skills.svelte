@@ -42,6 +42,13 @@
 		}
 	}
 
+	@media only screen and (max-width: 600px) {
+		.item img{
+			height: 100px;
+			width: auto;
+		}
+	}
+
 </style>
 
 <div class="skills">

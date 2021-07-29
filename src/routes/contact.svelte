@@ -31,6 +31,7 @@ const sendMessage = (e) =>{
 		flex-direction: column;
 		justify-content: center;
 		align-items:center;
+		background-color: rgb(240, 240, 240);
 	}
 
 	.socials{
