@@ -112,7 +112,7 @@ const sendMessage = (e) =>{
 		<a href="https://www.linkedin.com/in/garrick-sewsankar/"target="_blank"><i class="fa fa-linkedin"></i></a>
 		<a href="https://www.github.com/gsewsankar"target="_blank"><i class="fa fa-github"></i></a>
 	</div>
-	<a href="Garrick Sewsankar Resume Spring 2021.pdf" target="_blank">View Current Resume</a>
+	<a href="Garrick Sewsankar Resume Fall 2021.pdf" target="_blank">View Current Resume</a>
 	<div><i class="fa fa-phone"></i> (407)-797-6198 </div>
     <div><i class="fa fa-envelope"></i> gsewsankar@ufl.edu </div>
 	<p>I programmed this to send a notification directly to my phone LOL. If you are here, send something!</p>

@@ -65,6 +65,22 @@ img{
 <div class="experience" id="experience">
     <div class="job">
         <div class="left">
+            <h2>Full Stack Developer</h2>
+            <div><b>fwee</b> Orlando, FL <b>4/2021-Present</b></div>
+            <p>
+                <a href="https://fwee.io" target="_blank" rel="noopener noreferrer"><b>fwee.io</b></a><br> 
+                Responsible for the system design and maintenance of a scalable social platform that utilizes Google cloud functions within a virtual marketplace.
+                Built and designed a client with React to display user information retrieved from an API that I developed with GraphQL to handle accounting data and transactions for each user’s account. 
+            </p>
+        </div>
+        <div class="right">
+            <img src=fwee_logo.svg alt=brkn/>
+            <img src=fweemobile.png alt="brkn"/>
+        </div>
+    </div>
+
+    <div class="job">
+        <div class="left">
             <h2>E1 Technician</h2>
             <div><b>PHILIPS (Invivo)</b> Gainesville, FL <b>12/2019-12/2020</b></div>
             <p>
