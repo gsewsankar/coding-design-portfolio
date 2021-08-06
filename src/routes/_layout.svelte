@@ -1,6 +1,21 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	export let segment;
+	import { onMount } from 'svelte';
+	import firebase from 'firebase/app';
+	import 'firebase/firestore';
+	const firebaseConfig = {
+	apiKey: "AIzaSyDuSiEXG-ZOyFLlxQ1UniEyKKXCLT-ym30",
+	authDomain: "message-sender-8c7f0.firebaseapp.com",
+	projectId: "message-sender-8c7f0",
+	storageBucket: "message-sender-8c7f0.appspot.com",
+	messagingSenderId: "335037389016",
+	appId: "1:335037389016:web:3d336f13d92368c6671fad",
+	measurementId: "G-CELWL9K1JQ"
+	};
+	onMount(() => {
+		firebase.initializeApp(firebaseConfig);
+	});
 </script>
 
 <style>

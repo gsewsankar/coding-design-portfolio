@@ -5,6 +5,8 @@
 </svelte:head>
 
 <script>
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 let sent = false;
 
 const sendMessage = (e) =>{
@@ -15,7 +17,11 @@ const sendMessage = (e) =>{
 		alert("Name or Body cannot be empty");
 	}
 	else if(sent === false){
-		console.log({nameValue,bodyValue});
+		firebase.firestore().collection('messages').add({
+			from:nameValue,
+			body:bodyValue,
+			createdAt: firebase.firestore.FieldValue.serverTimestamp()
+		});
 		sent = true;
 	}
 	else{
