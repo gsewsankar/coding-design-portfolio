@@ -31,7 +31,6 @@ img{
     height: 200px;
 }
 
-
 @media only screen and (max-width: 600px) {
 .experience{
     display: flex;
@@ -89,7 +88,7 @@ img{
             </p>
         </div>
         <div class="right">
-            <img src=https://cdn.freelogovectors.net/wp-content/uploads/2018/04/philips_logo.png alt=brkn/>
+            <img class="p-logo" src=philips-logo.svg alt=brkn/>
             <img src="https://images.philips.com/is/image/PhilipsConsumer/HCNMRB209-IMS-en_US?wid=470&$pnglarge$" alt="brkn"/>
         </div>
     </div>
@@ -107,7 +106,7 @@ img{
         </div>
         <div class="right">
             <img src="https://fdotwww.blob.core.windows.net/sitefinity/images/default-source/content1/info/logo/png/fdot_logo_color.png?sfvrsn=293c15a8_2" alt=brkn/>
-            <img src="https://www.transportation.institute.ufl.edu/wp-content/uploads/2019/05/I-STREET-Logo-400px-300x233.png" alt="brkn"/>
+            <img src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/149/2021/11/I-STREET-Logo-400px-300x233-1.png" alt="brkn"/>
         </div>
     </div>
       

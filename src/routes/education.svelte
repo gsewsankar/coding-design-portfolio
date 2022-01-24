@@ -51,6 +51,11 @@ h2{
 	font-size: 3rem;
 }
 
+.cert{
+	font-family: diplomaregular;
+	font-size: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
 	.education{
 		display: flex;
@@ -82,6 +87,7 @@ h2{
 	<div class="left">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/University_of_Florida_logo.svg/396px-University_of_Florida_logo.svg.png" alt="brkn">
 		<h2 class="major">Bachelor of Science in Computer Science</h2>
+		<h3 class="cert">Engineering Certificate: Artificial Intelligence Fundamentals and Applications</h3>
 		<h2><b>May 2022</b></h2>
 		<h3>Significant Courses</h3>
 		<ul>
@@ -89,6 +95,7 @@ h2{
 			<li>Probability in Computer Science for Machine Learning</li>
 			<li>Ethics, Data, and Technology</li>
 			<li>Business Law</li>
+			<li>Data Analytics with Artificial Intelligence</li>
 		</ul>
 	</div>
 	<div class="right">
