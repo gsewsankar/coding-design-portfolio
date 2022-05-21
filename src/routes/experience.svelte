@@ -64,6 +64,19 @@ img{
 <div class="experience" id="experience">
     <div class="job">
         <div class="left">
+            <h2>Associate Software Engineer (LEAP Program)</h2>
+            <div><b>Fidelity Investments</b> Raleigh, NC <b>6/21/2022-Present</b></div>
+            <p> 
+                Worked on frontend native mobile app development in Andriod and IOS with Kotlin and Swift respectively. 
+            </p>
+        </div>
+        <div class="right">
+            <img src=https://blog.logomyway.com/wp-content/uploads/2021/04/fidelity-logo-PNG.png alt=brkn/>
+        </div>
+    </div>
+
+    <div class="job">
+        <div class="left">
             <h2>Full Stack Developer</h2>
             <div><b>fwee</b> Orlando, FL <b>4/2021-Present</b></div>
             <p>
