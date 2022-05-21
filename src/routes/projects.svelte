@@ -121,7 +121,7 @@ a{
 				</p>
 			</div>
 		</a>
-		<a href="https://www.watchlistexchange.com" target="_blank" rel="noopener noreferrer">
+		<a href="https://xchange-serverless-stack-2-client.netlify.app/" target="_blank" rel="noopener noreferrer">
 			<div class="card">
 				<img width=500px height="auto" src="wlx.PNG" alt=brkn>
 				<h3><b>WatchList Exchange</b></h3>
