@@ -128,7 +128,7 @@ onMount(() => {
 	<h1>Hi I'm Garrick Sewsankar...</h1>
 	<img class="newly-added" src=https://i.ibb.co/xSPkS8y/small.jpg alt=pfp />
 	</div>
-	<h3 class="newly-added">"Aspiring"<br>Software Engineer - Web Developer - UI/UX Designer<br> Philosopher - YouTuber - Start-Up Founder <br> Entrepreneur - Businessman - CEO </h3>
+	<h3 class="newly-added">Software Engineer - Web Developer - UI/UX Designer<br> Philosopher - YouTuber - Start-Up Founder <br> Entrepreneur - Businessman - CEO </h3>
 </div>
 </div>
 <Skills/>
